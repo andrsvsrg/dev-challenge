@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dev Challenge</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="main-header">
+        <h1>Crime topography</h1>
+    </header>
+
+    <div class="content-container">
+        <div class="main-content">
+            <section class="sidebar-container">
+
+            </section>
+
+            <div class="right-content">
+                <canvas id="map" class="map-container">
+
+                </canvas>
+
+                <div class="buttons">
+                    <button class="button-play"><img src="./img/play.svg"></button>
+                    <button class="button-pause hidden"><img src="./img/pause.svg"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="time-line">
+            <div class="time-line-divisions">
+
+            </div>
+            <canvas id="time-line-canvas">
+            </canvas>
+
+        </div>
+
+    </div>
+    <script type="module" src="script.js"> </script>
+</div>
+
+</body>
+</html>
